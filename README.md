@@ -6,7 +6,6 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/>
 
 This is the full setup of OpenCV with CUDA and cuDNN support for the Jetson Nano.<br/>
-For more information see [Q-engineering - Install OpenCV Jetson Nano](https://qengineering.eu/install-opencv-4.5-on-jetson-nano.html)
 
 ------------
 
@@ -28,9 +27,9 @@ You must have more memory allocated to your Nano for the fast 4 core build.<br/>
 # or only 1 core is used for the compilation.
 $ free -m
 
-$ wget https://github.com/Qengineering/Install-OpenCV-Jetson-Nano/raw/main/OpenCV-4-7-0.sh
-$ sudo chmod 755 ./OpenCV-4-7-0.sh
-$ ./OpenCV-4-7-0.sh
+$ wget https://github.com/WZH1103/OpenCV_with_Cuda_on_Jetson/jetson_Xavier/OpenCV-4-5-0.sh
+$ sudo chmod 755 ./OpenCV-4-5-0.sh
+$ ./OpenCV-4-5-0.sh
 ```
 :point_right: Don't forget to reset your swap memory afterwards.
 
@@ -51,9 +50,5 @@ OpenCV will be installed to the `/usr` directory, all files will be copied to fo
 - `/usr/lib/aarch64-linux-gnu/cmake/opencv4` - cmake package<br/>
 - `/usr/include/opencv4` - headers<br/>
 - `/usr/share/opencv4` - other files (e.g. trained cascades in XML format)<br/>
-
-------------
-
-[![paypal](https://qengineering.eu/images/TipJarSmall4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPZTM5BB3FCYL) 
 
 
